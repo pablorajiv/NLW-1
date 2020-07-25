@@ -1,0 +1,29 @@
+/*@media conjunto de regras para algumas coisas que podem ser configuradas*/
+@media (max-width: 900px) {
+    #page-home {
+        background-position-x: 70vw;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home main{
+        flex:0;
+        margin-top: 100px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 13%;
+        
+        left: 50%;
+        transform: translateX(-50%);
+        
+
+    }
+}
+
